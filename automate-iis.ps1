@@ -23,4 +23,4 @@
 # SOFTWARE.
 
 Add-WindowsFeature Web-Server
-Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Azure Project Great Learning from host $($env:computername) !"
+Set-Content -Path "C:\inetpub\wwwroot\Index.html" -Value "Azure Project Great Learning from host $($env:computername) !"
